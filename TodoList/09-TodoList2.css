@@ -1,0 +1,84 @@
+/* Bakgrund och grundstil */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fffaf7; /* krämig bakgrund */
+  color: #444;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Rubrik */
+p:first-of-type {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d46a92; /* mjuk rosa */
+  margin-bottom: 15px;
+}
+
+/* Inputfält */
+.js-name-input,
+.js-due-date-input {
+  padding: 8px 12px;
+  border: 2px solid #f3c6d4;
+  border-radius: 8px;
+  background: #fff0f6;
+  margin-right: 8px;
+  font-size: 1rem;
+}
+
+.js-name-input:focus,
+.js-due-date-input:focus {
+  outline: none;
+  border-color: #e89ab3;
+  background: #fff5f9;
+}
+
+/* Add-knappen */
+button {
+  background: #f7b6c8;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #e89ab3;
+}
+
+/* Todo-listan */
+.js-todo-list {
+  margin-top: 20px;
+}
+
+/* Varje todo-item */
+.todo-item {
+  background: #ffe6ec;
+  border: 1px solid #f3c6d4;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+}
+
+
+/* Delete-knappen */
+.js-todo-list button {
+  background: #f3c6d4;
+  color: #444;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.js-todo-list button:hover {
+  background: #e89ab3;
+  color: #fff;
+}
